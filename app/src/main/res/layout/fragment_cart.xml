@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        android:background="@android:color/white"
+        android:layout_below="@id/removeAllButton" />
+
+    <Button
+        android:id="@+id/removeAllButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        android:padding="8dp"
+        android:text="Remove All"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/totalPayableTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/makePaymentButton"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:background="@color/bg_textview"
+        android:textColor="@color/colorAccent"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/makePaymentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Payment"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/cartEmptyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="Cart is Empty"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/emptyCartImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/cartEmptyTextView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pngwing"
+        android:visibility="gone"
+        android:layout_marginTop="25dp" />
+
+</RelativeLayout>

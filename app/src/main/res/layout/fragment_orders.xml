@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/deleteAllOrdersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        android:padding="8dp"
+        android:text="Clear History"
+        android:textColor="@color/colorPrimary" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ordersRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/deleteAllOrdersButton"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/ordersEmptyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="Please Make a Purchase"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ordersEmptyImage"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_below="@id/ordersEmptyTextView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/emtyorder"
+        android:visibility="gone"
+        android:layout_marginTop="25dp" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "918323885258",
+    "project_id": "trendz-5acb0",
+    "storage_bucket": "trendz-5acb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918323885258:android:48c26855feecd16e617033",
+        "android_client_info": {
+          "package_name": "com.example.trendz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUFVNejmcvwFuVE0ZrfXmeD8573o1ukF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

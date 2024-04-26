@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Trendz</string>
+    <string name="product_image_description">Product Image</string>
+    <string name="added_to_cart_message">Product added to cart</string>
+    <string name="underlined_text"><u>Remove All</u></string>
+    <string name="total_payable_amount">Total Payable Amount: %s</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Welcome</string>
+
+</resources>
